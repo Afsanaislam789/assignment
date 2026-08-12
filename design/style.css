@@ -424,90 +424,108 @@ ul li a{
 #team-btn:hover{
     cursor: pointer;
 }
+/** Hackathon Section Start **/
 
-
-/** faq-section is start */
-.faq-section {
-    padding: 5rem 4% 7rem;
-    background-color: #F8F9FB; 
+.hackathon-section {
+    padding: 4rem 4% 6rem;
+    background-color: #F8F9FB;
 }
 
-.faq-content {
-    max-width: 900px; 
+.hackathon-container {
+    max-width: 1200px;
     margin: 0 auto;
-}
-
-/* faq title */
-.faq-title {
-    display: grid;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 4rem;
-}
-
-.faq-title h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #0D1B2A; 
+    background-color: #0D1B2A;
+    border-radius: 16px;
+    padding: 3.5rem 2rem;
     text-align: center;
+    border: 1px solid #1E293B;
 }
 
-.faq-title p {
-    color: #575757;
-    font-size: 1rem;
-    text-align: center;
-}
-
-/* faq container */
-.faq-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-.faq-item {
-    background-color: #FFFFFF;
-    border: 1px solid #E5E7EB;
-    border-radius: 12px; 
-    padding: 1.5rem 2rem;
-    transition: all 0.3s ease;
-}
-
-.faq-item:hover {
-    border-color: #2563EB; 
-    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.05);
-}
-
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-.faq-question h3 {
-    font-size: 1.2rem;
+/* Badge & Header */
+.hackathon-badge {
+    display: inline-block;
+    background-color: rgba(37, 99, 235, 0.2);
+    color: #60A5FA;
+    font-size: 0.85rem;
     font-weight: 600;
-    color: #0D1B2A;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(96, 165, 250, 0.3);
 }
 
-.faq-question i {
-    color: #2563EB; 
+.hackathon-header h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 0.8rem;
+}
+
+.hackathon-header p {
+    color: #94A3B8;
     font-size: 1.1rem;
-    transition: transform 0.3s ease;
-}
-
-.faq-answer {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid #E5E7EB;
-}
-
-.faq-answer p {
-    font-size: 0.95rem;
-    color: #575757;
+    max-width: 650px;
+    margin: 0 auto 3rem;
     line-height: 1.6;
 }
+
+/* Grid Cards */
+.hackathon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hackathon-card {
+    background-color: #112236;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.hackathon-card:hover {
+    transform: translateY(-5px);
+    border-color: #2563EB;
+}
+
+.hackathon-icon {
+    font-size: 2rem;
+    color: #60A5FA;
+    margin-bottom: 1rem;
+}
+
+.hackathon-card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 0.4rem;
+}
+
+.hackathon-card p {
+    font-size: 0.9rem;
+    color: #94A3B8;
+}
+
+/* CTA Button */
+.hackathon-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.hackathon-btn:hover {
+    cursor: pointer;
+    background-color: #2563EB;
+}
+
+
 
 /* footer section :  */
 
